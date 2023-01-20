@@ -1,0 +1,50 @@
+.inventory-home {
+    position: absolute;
+    display: flex;
+
+    min-height: 90%;
+    min-width: 100%;
+    overflow: hidden;
+    top:10%;
+    z-index: -1;
+    background-color:rgba(232, 237, 223, 1);
+    color: rgba(51, 53, 51, 1);
+    flex-flow: column;
+
+}
+
+.no-padding {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+
+.header{
+  text-align: center;
+  padding: 20px;
+
+}
+
+.table-design {
+  padding: 10px;
+  
+}
+
+.table-design > tbody > tr
+{
+  padding: 20px;
+  background-color: rgba(245, 203, 92, 1);
+}
+
+.button-design {
+  padding: 0px 20px;
+  border: 0px;
+  margin-top: 20%;
+
+}
+
+.thead-design {
+  border: 1px solid rgba(51, 53, 51, 1);;
+}
+
